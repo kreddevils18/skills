@@ -8,9 +8,11 @@ Makes Safari on iPhone and iPad show Apple's native Smart App Banner on the page
 npx skills add https://github.com/kreddevils18/skills --skill smart-app-banner
 ```
 
-Or ask your agent:
+Or paste this prompt into any agent. It loads the skill for the task without installing it:
 
-> Install the smart-app-banner skill from https://github.com/kreddevils18/skills with `npx skills add https://github.com/kreddevils18/skills --skill smart-app-banner`.
+```text
+Run `npx skills use "https://github.com/kreddevils18/skills" --skill "smart-app-banner"` and follow the generated skill instructions now. Read its complete output, redirecting it to a temporary file first if necessary. Resolve relative paths from the supporting-files directory it provides.
+```
 
 Manual install for Claude Code:
 
