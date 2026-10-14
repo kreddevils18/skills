@@ -42,5 +42,3 @@ Not covered: handling the URL inside the iOS app, Android install banners, custo
 ## Security audit
 
 Passed 7 of 7 checks on 2026-10-14 (`ak:skill-creator` audit): no scripts, no secrets, no network calls, no dependencies. See [`audits/smart-app-banner.json`](../../audits/smart-app-banner.json).
-
-Source: Apple, [Promoting Apps with Smart App Banners](https://developer.apple.com/documentation/webkit/promoting-apps-with-smart-app-banners).

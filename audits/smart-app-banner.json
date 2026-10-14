@@ -2,7 +2,7 @@
   "skill": "smart-app-banner",
   "auditedAt": "2026-10-14",
   "auditor": "ak:skill-creator audit",
-  "skillMdSha256": "742813e204b1120dac702e841e0e04ccbe8b1d89b0bd36c35a4f581ba8e11557",
+  "skillMdSha256": "aa60de7350e223b8c9c670187de9c288ca321d24924f06649c9a21d3437de64f",
   "result": "pass",
   "checks": [
     {
@@ -33,7 +33,7 @@
       "id": "network",
       "name": "Network and data exfiltration",
       "result": "pass",
-      "detail": "Sends no data anywhere. Links only to Apple's documentation."
+      "detail": "Sends no data anywhere. Contains no links besides App Store URL patterns and example.com placeholders."
     },
     {
       "id": "instruction-safety",

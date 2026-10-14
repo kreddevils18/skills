@@ -9,9 +9,6 @@ Make Safari on iOS/iPadOS show Apple's native app banner on the pages the user
 chooses, with the correct App Store ID and, when the app supports it, a URL that
 opens the matching screen in the app.
 
-Source: Apple, "Promoting Apps with Smart App Banners"
-(https://developer.apple.com/documentation/webkit/promoting-apps-with-smart-app-banners).
-
 ## What the banner does
 
 - A thin strip at the top of the Safari page with a Close button. After the user
