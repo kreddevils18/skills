@@ -1,0 +1,51 @@
+{
+  "skill": "smart-app-banner",
+  "auditedAt": "2026-10-14",
+  "auditor": "ak:skill-creator audit",
+  "skillMdSha256": "742813e204b1120dac702e841e0e04ccbe8b1d89b0bd36c35a4f581ba8e11557",
+  "result": "pass",
+  "checks": [
+    {
+      "id": "structure",
+      "name": "Structure and frontmatter",
+      "result": "pass",
+      "detail": "quick_validate.py: valid name, description and layout."
+    },
+    {
+      "id": "prompt-lint",
+      "name": "Prompt lint and routing",
+      "result": "pass",
+      "detail": "lint_cruft.py --routing: 0 high, 0 medium, 0 low findings."
+    },
+    {
+      "id": "executable-code",
+      "name": "Executable code",
+      "result": "pass",
+      "detail": "No scripts, binaries or install hooks. The only command is a read-only curl of the user's own page."
+    },
+    {
+      "id": "secrets",
+      "name": "Secrets and private data",
+      "result": "pass",
+      "detail": "No tokens, keys, private paths or personal data. Examples use placeholders (123456789, example.com)."
+    },
+    {
+      "id": "network",
+      "name": "Network and data exfiltration",
+      "result": "pass",
+      "detail": "Sends no data anywhere. Links only to Apple's documentation."
+    },
+    {
+      "id": "instruction-safety",
+      "name": "Instruction safety",
+      "result": "pass",
+      "detail": "No instruction overrides or hidden characters. Tells the agent to ask for the App Store ID instead of guessing."
+    },
+    {
+      "id": "dependencies",
+      "name": "Dependencies",
+      "result": "pass",
+      "detail": "None."
+    }
+  ]
+}
